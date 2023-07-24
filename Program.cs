@@ -28,7 +28,7 @@ namespace Project
                     int age = int.Parse(studentData[2]);
                     string grade = studentData[3];
 
-                    Console.WriteLine($"Student ID is: {id}, Student Name: {name},Student Age: {age},Student Grade: {grade}");
+                    Console.WriteLine($"Student ID is: {id}, Student Name: {name}, Student Age: {age}, Student Grade: {grade}");
                 }
             }
             catch (Exception ex)
